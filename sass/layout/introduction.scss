@@ -1,0 +1,43 @@
+@use "../utils/mixins";
+@use "../utils/color";
+
+.introduction {
+    text-align: center;
+    background-color: #F6F6F6;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    & h2 {
+        font-size: 2rem;
+    }
+    & p {
+        margin-top: 1rem;
+        font-size: 1rem;
+        color: #353535;
+    }
+    & button {
+        @include mixins.button;
+    }
+}
+
+.loader {
+    $animation_duration: 3s;
+    position: fixed;
+    background-color: color.$lightpurple;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    inset: 0;
+    z-index: 1;
+    opacity: 0.9;
+    animation: desepear 200ms $animation_duration forwards;
+    transform-origin: top;
+    & i {
+        color: color.$purple;
+    }
+}
+
+@keyframes desepear {
+    to {
+        transform: scale(0);
+    }
+}
