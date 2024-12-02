@@ -40,7 +40,6 @@
         position: relative;
         z-index: 1;
         h2 {
-            font-family: "shrikhand" "cursive";
             @include mixins.animated-heart;
             border-radius: 2rem 2rem 0 0;
         }

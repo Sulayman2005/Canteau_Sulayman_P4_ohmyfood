@@ -77,7 +77,6 @@ header {
   font-weight: 200;
   font-size: 1.3rem;
   padding: 1rem 1rem;
-  padding-bottom: 1rem -2rem;
   border: none;
   margin-top: 2rem;
   border-radius: 2rem;
@@ -234,7 +233,6 @@ header {
   height: 2rem;
   width: 5rem;
   background-color: #99E2DD;
-  color: #99E2DD, 50%;
   display: grid;
   place-items: center;
   top: 1rem;
@@ -360,7 +358,6 @@ footer {
     width: 261px;
     height: 20px;
     gap: 7px;
-    opacity: 0px;
     max-width: 400px;
   }
 }
@@ -448,7 +445,6 @@ footer .footer__list i {
   z-index: 1;
 }
 #page-resto .resto_title h2 {
-  font-family: "shrikhand" "cursive";
   position: relative;
   font-family: "Shrikhand", "sans-serif";
   border-radius: 2rem 2rem 0 0;
@@ -621,7 +617,6 @@ footer .footer__list i {
   font-weight: 200;
   font-size: 1.3rem;
   padding: 1rem 1rem;
-  padding-bottom: 1rem -2rem;
   border: none;
   margin-top: 2rem;
   border-radius: 2rem;
